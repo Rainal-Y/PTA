@@ -1,12 +1,12 @@
 #include<stdio.h>
-#include<math.h>
 int main()
 {
-    int a, b, n;
-    double j;
+    int a, b, n, j = 1;
     scanf("%d %d",&a, &b);
     n = a+b;
-    j = fact(n);
-    printf("%f",j);
+    for(int i = 1; i<=n; i++){
+        j *= i;
+    }
+    printf("%d",j);
     return 0;
 }
