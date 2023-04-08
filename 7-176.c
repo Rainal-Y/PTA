@@ -10,8 +10,8 @@ int main()
     }
     for(int j = 0; j < n; j++){
         if(a[j] < m){
-            printf("On Sale! %.1f",a[j]);
-        }
+            printf("On Sale! %.1f\n",a[j]);
+        }    
     }
     return 0;
 } 
